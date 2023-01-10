@@ -1,0 +1,39 @@
+@import '../core/Variables.scss';
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @media all and (min-width: 768px){
+        flex-direction: row;
+        justify-content: space-between;
+        }
+    &__title{
+        // padding-left: 70px;
+        word-spacing: 5px;
+        line-height: 40px;
+        font-family: $mainText;
+        font-weight: 400;
+        font-size: 25px;
+        @media all and (min-width: 768px){
+        padding-left: 80px;
+        font-size: 30px;
+        word-spacing: 5px;
+        line-height: 45px;
+        }
+     &::first-line{
+            word-spacing: 100vw;
+        }
+    }
+    &__avatar{
+        width: 300px;
+        @media all and (min-width: 768px){
+        width: 450px;
+        }
+    }
+}
+
+.span{
+    display: block;
+}
+

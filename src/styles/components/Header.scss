@@ -1,0 +1,38 @@
+@import '../core/Variables.scss';
+.header{
+    // width: 100vw;
+    background-color: #8198ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    &__text{
+        display: none;
+    }
+    &__logo{
+        width: 100px;
+        padding: 15px 0;
+        &--item{
+            color: white;
+        }
+    }
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__list{
+        display: none;
+        @media all and (min-width: 768px){
+        color: white;
+        font-family: $mainText;
+        font-weight: 500;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 60px;
+        padding-right: 80px;
+        }
+    }
+}
