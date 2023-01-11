@@ -1,6 +1,7 @@
 import rickAndMorty from '../images/rickandmorty.jpeg';
 import superCards from '../images/supercards.jpeg';
 import '../styles/components/Projects.scss';
+import { motion } from 'framer-motion';
 // import projects from '../data/projectsData.json';
 
 // const listProjects = () => {
@@ -24,34 +25,68 @@ function Projects() {
     <>
       <ul className="projects">
         {/* {listProjects()} */}
-        <li key="1">
-          <article className="projects__one">
-            <img
-              src={rickAndMorty}
-              className="projects__one--img"
-              alt="Rick and mMorty project"
-            />
-            <h2 className="projects__one--title">
-              Rick and Morty character finder
-            </h2>
-            <p className="projects__one--desc">
-              Filter characters by status, specie, etc.
-            </p>
-          </article>
-        </li>
-        <li key="">
-          <article className="projects__one">
-            <img
-              src={superCards}
-              className="projects__one--img"
-              alt="Rick and mMorty project"
-            />
-            <h2 className="projects__one--title">Awesome Women Cards</h2>
-            <p className="projects__one--desc">
-              Create your own business card.
-            </p>
-          </article>
-        </li>
+        <motion.div
+          initial={{ scale: 0 }}
+          animate={{
+            x: 0,
+            y: 0,
+            scale: 1,
+            rotate: 0,
+          }}
+          transition={{ duration: 0.5 }}
+        >
+          <li key="1">
+            <article className="projects__one">
+              <img
+                src={rickAndMorty}
+                className="projects__one--img"
+                alt="Rick and mMorty project"
+              />
+              <h2 className="projects__one--title">
+                Rick and Morty character finder
+              </h2>
+              <p className="projects__one--desc">
+                Filter characters by status, specie, etc.
+              </p>
+              <a
+                href="https://elenavar.github.io/Rick-and-Morty-Finder/"
+                className="linkProject"
+              >
+                <p className="projects__one--button">Go to project</p>
+              </a>
+            </article>
+          </li>
+        </motion.div>
+        <motion.div
+          initial={{ scale: 0 }}
+          animate={{
+            x: 0,
+            y: 0,
+            scale: 1,
+            rotate: 0,
+          }}
+          transition={{ duration: 0.5, delay: 0.5 }}
+        >
+          <li key="">
+            <article className="projects__one">
+              <img
+                src={superCards}
+                className="projects__one--img"
+                alt="Rick and mMorty project"
+              />
+              <h2 className="projects__one--title">Awesome Women Cards</h2>
+              <p className="projects__one--desc">
+                Create your own business card.
+              </p>
+              <a
+                href="https://elenavar.github.io/Rick-and-Morty-Finder/"
+                className="linkProject"
+              >
+                <p className="projects__one--button">Go to project</p>
+              </a>
+            </article>
+          </li>
+        </motion.div>
       </ul>
     </>
   );

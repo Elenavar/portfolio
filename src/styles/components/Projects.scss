@@ -38,5 +38,18 @@
       font-size: 16px;
       text-align: center;
     }
+    &--button {
+      font-family: $mainText;
+      background-color: $darkColor;
+      padding: 7px;
+      border-radius: 20px;
+    }
   }
+}
+
+.linkProject {
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 500;
 }
