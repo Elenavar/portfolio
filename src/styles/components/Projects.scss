@@ -1,0 +1,39 @@
+@import '../core/Variables.scss';
+
+.projects {
+  background-color: $ligthColor;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+  }
+  &__one {
+    background-color: $mediumColor;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &--img {
+      width: 200px;
+      border-radius: 10px;
+    }
+    &--title {
+      color: white;
+      font-family: $mainText;
+      font-size: 18px;
+      text-align: center;
+      padding: 10px;
+    }
+    &--desc {
+      font-family: $mainText;
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+}

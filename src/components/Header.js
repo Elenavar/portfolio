@@ -1,5 +1,7 @@
 import '../styles/components/Header.scss';
 import logo from '../images/logo.png';
+import { Link } from 'react-router-dom';
+
 function Header() {
   return (
     <header className="header">
@@ -14,10 +16,18 @@ function Header() {
       </div>
       <nav className="header__nav nav">
         <ul className="nav__list">
-          <li className="nav__list--item--item">Home</li>
-          <li className="nav__list--item--item">Projects</li>
-          <li className="nav__list--item--item">About me</li>
-          <li className="nav__list--item--item">Contact</li>
+          <Link to="/" className="link">
+            <li className="nav__list--item--item">Home</li>
+          </Link>
+          <Link to="/projects" className="link">
+            <li className="nav__list--item--item">Projects</li>
+          </Link>
+          <Link>
+            <li className="nav__list--item--item">About me</li>
+          </Link>
+          <Link>
+            <li className="nav__list--item--item">Contact</li>
+          </Link>
         </ul>
       </nav>
     </header>

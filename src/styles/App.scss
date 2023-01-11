@@ -1,5 +1,13 @@
 @import './core/Reset.scss';
+@import './core/Variables.scss';
 
 .page {
   height: 100vh;
+}
+
+.link {
+  color: white;
+  &:hover {
+    color: $darkColor;
+  }
 }
