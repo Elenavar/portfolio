@@ -2,13 +2,16 @@
 
 .projects {
   background-color: $ligthColor;
-  height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 30px;
+  padding: 30px;
   @media all and (min-width: 768px) {
     flex-direction: row;
+    height: 80%;
+    gap: 50px;
   }
   &__one {
     background-color: $mediumColor;

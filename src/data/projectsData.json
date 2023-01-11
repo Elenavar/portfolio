@@ -1,0 +1,14 @@
+[
+    {
+    "id": 1,
+    "img": "src/images/rickandmorty.png",
+    "title": "Rick and Morty character finder",
+    "desc":"You can filter characters by status, specie, etc."
+},
+{
+    "id": 2,
+    "img": "src/images/rickandmorty.png",
+    "title": "Awesome Women Cards",
+    "desc":"You can create your own business card.This project was created with some of my Adalab colleagues."
+}
+]
