@@ -8,12 +8,12 @@ import Projects from './Projects';
 function App() {
   return (
     <div className="page">
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<Homepage />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
