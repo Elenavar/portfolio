@@ -1,11 +1,10 @@
 import '../styles/components/Header.scss';
-import logo from '../images/logo.png';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Header() {
   return (
     <header className="header">
-      <h1 className="header__text">Elena Vargas</h1>
+      {/* <h1 className="header__text">Elena Vargas</h1>
       <div className="div">
         <img
           className="header__logo"
@@ -29,7 +28,7 @@ function Header() {
             <li className="nav__list--item--item">Contact</li>
           </Link>
         </ul>
-      </nav>
+      </nav> */}
     </header>
   );
 }

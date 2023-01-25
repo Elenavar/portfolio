@@ -4,14 +4,15 @@ import Header from './Header';
 import Homepage from './Hompage';
 import Footer from './Footer';
 import Projects from './Projects';
+import Menu from './Menu';
 
 function App() {
   return (
     <div className="page">
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<Homepage />}></Route>
-        <Route path="/projects" element={<Projects />}></Route>
+        <Route path="/menu" element={<Menu></Menu>}></Route>
       </Routes>
       {/* <Footer /> */}
     </div>

@@ -1,22 +1,58 @@
 @import '../core/Variables.scss';
+.motion{
+    transform: translateY(90%);
+    z-index: 1;
+}
+
+.button{
+  margin-top: 20px;
+  padding: 7px;
+  border-radius: 25px;
+  font-family: 'Anton', sans-serif;
+  font-size: 15px;
+  line-height: 15px;
+  background-color: rgb(6, 97, 128);
+  transition: 0.5s ease-in-out;
+  color: white;
+  &:hover{
+    transition: all 0.8s ease-in-out;
+  background-image: linear-gradient(
+    to right,
+    lightyellow,
+    rgb(83, 183, 216),
+    lightblue,
+    rgb(6, 97, 128)
+  );
+  box-shadow: 0 4px 15px 0 rgba(6, 97, 128, 0.75);
+  background-size: 300% 100%;
+  cursor: pointer;
+  }
+  &:hover:hover{
+    background-position: 100% 0;
+  transition: all 0.8s ease-in-out;
+  }
+}
+
+
 .home {
-  height: 80%;
-  background-color: $ligthColor;
+  height: 100%;
+  background: linear-gradient(to right, lightblue 30%, lightyellow 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   @media all and (min-width: 768px) {
-    flex-direction: row;
+    // flex-direction: row;
   }
   &__title {
-    padding: 20px;
+    text-transform: uppercase;
     text-align: center;
     word-spacing: 5px;
     line-height: 40px;
-    font-family: $mainText;
-    font-weight: 400;
-    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: rgb(6, 97, 128);
     @media all and (min-width: 768px) {
       transform: translateX(80px);
       text-align: start;
@@ -31,13 +67,10 @@
       word-spacing: 15px;
       line-height: 58px;
     }
-    &::first-line {
-      word-spacing: 100vw;
-    }
   }
   &__avatar {
-    position: relative;
-    margin-bottom: 20px;
+    // transform: translateY(-20%);
+    z-index: 2;
     width: 250px;
     @media all and (min-width: 768px) {
       width: 300px;
@@ -50,6 +83,18 @@
   }
 }
 
+.home__div{
+  transform: translateY(-3%);
+  z-index: 2;
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 .span {
   display: block;
+  font-size: 35px;
 }
