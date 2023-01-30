@@ -19,15 +19,15 @@ function Menu() {
                     <h2 className="aboutme__bg--text2">about me</h2>
               </div>
           </Link>
-          <img className='aboutme__img' src={aboutme}></img>
+          <img className='aboutme__img' src={aboutme}alt="About me"></img>
         </div>
         <div className="menu__paper--div2 div projects">
-            <Link className="link">
+            <Link to="/menu/projects" className="link">
                 <div className="projects__bg">
                 <h2 className="projects__bg--text1">projects</h2>
                 <h2 className="projects__bg--text2">projects</h2><h2 className="projects__bg--text3">projects</h2></div>
             </Link>
-            <img className='projects__img' src={projects}></img>
+            <img className='projects__img' src={projects} alt="Computer gift"></img>
         </div>
         <div className="menu__paper--div3 div contact"><Link className="link contact">
               <div className="contact__bg">
@@ -35,7 +35,7 @@ function Menu() {
                         <h2 className="contact__bg--text1">contact me</h2>
               </div>
           </Link>
-          <img className='contact__img' src={contact}></img></div>
+          <img className='contact__img' src={contact}alt="Contact"></img></div>
       </div>
     </div>
   );
