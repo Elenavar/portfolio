@@ -25,7 +25,8 @@ function Projects() {
     <>
     <div className='projectsPage'>
     <div className="projectsPage__back">
-        <Link to="/menu" className="projectsPage__back--link link"><p className="link__text">back</p></Link>
+        <Link to="/menu" className="projectsPage__back--link link">
+          <i class="fa-sharp fa-solid fa-circle-arrow-left"></i></Link>
     </div>
       <div className="projectsPage__paper">
         <ul className='projectsPage__paper--list list'>
