@@ -1,37 +1,36 @@
-@import '../core/Variables.scss';
+@import "../core/Variables.scss";
 
-.aboutmePage{
-    background: linear-gradient(to right, lightblue 30%, lightyellow 100%);
+.aboutmePage {
+  background: linear-gradient(to right, lightblue 30%, lightyellow 100%);
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   &__back {
-    
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 30px;
-        &--link {
-          &:hover {
-            -webkit-text-stroke: 2px rgb(6, 97, 128);
-            color: rgb(129, 180, 197);
-          }
-          cursor: pointer;
-          text-transform: uppercase;
-          text-decoration: none;
-          font-family: $mainText;
-          color: rgb(6, 97, 128);
-          font-size: 25px;
-          @media all and (min-width: 768px) {
-            font-size: 30px;
-          }
-          @media all and (min-width: 768px) {
-            font-size: 35px;
-          }
-        }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    &--link {
+      &:hover {
+        -webkit-text-stroke: 2px rgb(6, 97, 128);
+        color: rgb(129, 180, 197);
       }
+      cursor: pointer;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-family: $mainText;
+      color: rgb(6, 97, 128);
+      font-size: 25px;
+      @media all and (min-width: 768px) {
+        font-size: 30px;
+      }
+      @media all and (min-width: 768px) {
+        font-size: 35px;
+      }
+    }
+  }
   &__paper {
     margin: 20px;
     font-size: 12px;
@@ -52,37 +51,39 @@
       padding: 30px 0;
       font-size: 25px;
     }
-    &--article{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-        @media all and (min-width: 768px){
+    &--article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      @media all and (min-width: 768px) {
         flex-direction: row;
-
-        }
+      }
     }
-    
   }
 }
 
-.imgbg{
-    padding: 10px;
-    background-color: lightblue;
+.imgbg {
+  padding: 10px;
+  background-color: lightblue;
+  border-radius: 5%;
+  &__img {
+    width: 150px;
     border-radius: 5%;
-    &__img{
-        width: 150px;
-        border-radius: 5%;
-    }
+  }
 }
 
-.text{
-    &__title{
-color: rgb(6, 97, 128);
+.text {
+  &__title {
+    color: rgb(6, 97, 128);
+    letter-spacing: 0.5px;
+    &--span{
+      color: lightblue;
+      -webkit-text-stroke: 1.1px rgb(6, 97, 128);
     }
-    &__desc{
-font-family: 'Roboto', 'Sans Serif';
-    }
+  }
+  &__desc {
+    font-family: "Roboto", "Sans Serif";
+  }
 }
-

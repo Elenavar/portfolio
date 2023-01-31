@@ -15,18 +15,12 @@ function AboutMe() {
           <div className="aboutmePage__paper--imgbg imgbg"><img className="imgbg__img" src={photo}></img></div>
           <div className="aboutmePage__paper--text text">
               <h2 className="text__title">
-                Lorem ipsum.
+                ABOUT ME: <span className="text__title--span">Elena Vargas</span>
               </h2>
               <p className="text__desc">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit lobortis,
-                dictum dui sapien vehicula scelerisque sociosqu semper pretium
-                laoreet, dis habitasse eget posuere montes ornare luctus. Tincidunt
-                fames mi potenti porttitor aenean integer imperdiet cum, odio
-                nascetur ad litora gravida conubia fusce et, nostra pulvinar
-                phasellus molestie tellus ultricies aliquam. Id himenaeos curae
-                fusce netus sollicitudin metus aptent risus aliquam feugiat cras
-                per, pharetra cum mollis viverra nullam urna lacinia nulla tempus
-                placerat.
+              After finishing my studies in the degree of Industrial Electronics Engineering, and due to my great interest in the world of computing, I decided to take the leap into the world of web programming.
+Thanks to Adalab's Web Programming Bootcamp I managed to acquire a wide range of knowledge and skills, such as stress management and teamwork, as well as knowledge in layout, React, JavaScript, Git and APIs and backend programming (Node JS, Express and SQL).
+I am a very energetic person with a lot of initiative and willingness to learn. I am currently looking for a position as a web programmer, to be able to take the first step into the working world and to continue learning and developing all my knowledge.
               </p>
           </div>
         </article>
