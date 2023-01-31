@@ -20,13 +20,14 @@ function AboutMe() {
             <h2 className="text__title article__div1">
               ABOUT ME: <span className="text__title--span">Elena Vargas</span>
             </h2>
-            <p className="text__p--p1">
+            {/* <div className="text__desc"> */}
+            <p className="text__p">
               After finishing my studies in the degree of Industrial Electronics
               Engineering, and due to my great interest in the world of
               computing, I decided to take the leap into the world of web
               programming.
             </p>
-            <p className="text__p--p2">
+            <p className="text__p">
               Thanks to Adalab's Web Programming Bootcamp I managed to acquire a
               wide range of knowledge and skills, such as stress management and
               teamwork, as well as knowledge in layout, React, JavaScript, Git
