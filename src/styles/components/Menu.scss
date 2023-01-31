@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
   &__paper {
-    padding: 15px;
+    // padding: 15px;
     box-shadow: 5px 5px 5px rgba(6, 97, 128, 0.7);
     font-family: $mainText;
     word-spacing: 5px;
@@ -18,11 +18,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    // gap: 5px;
+    margin-bottom: 200px;
     @media all and (min-width: 768px) {
       flex-direction: row;
       flex-wrap: wrap;
-      width: 730px;
+      // width: 730px;
       padding: 30px 0;
       font-size: 20px;
     }
@@ -34,19 +35,23 @@
       font-size: 25px;
     }
     &--div1 {
+      margin: 25px;
       background-color: lightblue;
       box-shadow: 5px 5px 5px rgba(6, 97, 128, 0.7);
     }
     &--div2 {
+      margin: 0 25px;
       background-color: lightblue;
       box-shadow: 5px 5px 5px rgba(6, 97, 128, 0.7);
     }
     &--div3 {
+      margin: 25px;
       background-color: white;
       box-shadow: 5px 5px 5px rgba(6, 97, 128, 0.7);
     }
   }
   &__back {
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;

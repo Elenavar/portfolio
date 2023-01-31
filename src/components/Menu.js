@@ -1,6 +1,6 @@
 import "../styles/components/Menu.scss";
 import aboutme from "../images/aboutme.jpeg";
-import projects from "../images/proyects.gif";
+import projects from "../images/projects.gif";
 import contact from "../images/contact.png";
 import { Link } from "react-router-dom";
 
