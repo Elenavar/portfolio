@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "./static/css/main.a2a3153e.css",
-    "main.js": "./static/js/main.e3a96d72.js",
+    "main.css": "./static/css/main.e14fdbc4.css",
+    "main.js": "./static/js/main.f31a78c5.js",
     "static/media/projects.gif": "./static/media/projects.a3817bf4ba7e6ec14972.gif",
     "static/media/aboutmepage.jpg": "./static/media/aboutmepage.9571076d4a420f0bba40.jpg",
+    "static/media/hunterxhunter.png": "./static/media/hunterxhunter.90a3531ee4c979a40b45.png",
+    "static/media/guerreras.png": "./static/media/guerreras.22a6e809c5aab4a5a234.png",
+    "static/media/rickandmorty.png": "./static/media/rickandmorty.2814227c1a0b8efb1740.png",
+    "static/media/lord.png": "./static/media/lord.4c4ef12330d35e100c01.png",
+    "static/media/supercards.png": "./static/media/supercards.2a47029495757f74263b.png",
     "static/media/aboutme.jpeg": "./static/media/aboutme.732f6e664db1beb16588.jpeg",
-    "static/media/rickandmorty.jpeg": "./static/media/rickandmorty.e36d5499a484e4f0f0c6.jpeg",
-    "static/media/supercards.jpeg": "./static/media/supercards.69ec298afbbc44f20580.jpeg",
     "static/media/contact.png": "./static/media/contact.8934d40c0dfe9df17490.png",
     "static/media/avatar2.png": "./static/media/avatar2.9d8f0c70202aef2beb8f.png",
     "index.html": "./index.html",
-    "main.a2a3153e.css.map": "./static/css/main.a2a3153e.css.map",
-    "main.e3a96d72.js.map": "./static/js/main.e3a96d72.js.map"
+    "main.e14fdbc4.css.map": "./static/css/main.e14fdbc4.css.map",
+    "main.f31a78c5.js.map": "./static/js/main.f31a78c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2a3153e.css",
-    "static/js/main.e3a96d72.js"
+    "static/css/main.e14fdbc4.css",
+    "static/js/main.f31a78c5.js"
   ]
 }
