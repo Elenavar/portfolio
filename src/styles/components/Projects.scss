@@ -28,10 +28,10 @@
       font-family: $mainText;
       color: rgb(6, 97, 128);
       font-size: 25px;
-      @media all and (min-width: 768px) {
+      @media all and (min-width: 678px) {
         font-size: 30px;
       }
-      @media all and (min-width: 768px) {
+      @media all and (min-width: 1200px) {
         font-size: 35px;
       }
     }
@@ -47,8 +47,8 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
-    @media all and (min-width: 768px) {
-      width: 730px;
+    @media all and (min-width: 678px) {
+      width: 572px;
       padding: 30px 0;
       font-size: 20px;
     }
@@ -64,7 +64,7 @@
       justify-content: center;
       align-items: center;
       gap: 30px;
-      @media all and (min-width: 768px) {
+      @media all and (min-width: 678px) {
         flex-direction: row;
         flex-wrap: wrap;
       }
@@ -85,7 +85,7 @@
   align-items: center;
   word-spacing: 2px;
   @media all and (min-width: 768px) {
-    height: 380px;
+    // height: 380px;
   }
   &__img {
     width: 200px;

@@ -1,5 +1,8 @@
-import rickAndMorty from '../images/rickandmorty.jpeg';
-import superCards from '../images/supercards.jpeg';
+import rickAndMorty from '../images/rickandmorty.png';
+import superCards from '../images/supercards.png';
+import guerreras from '../images/guerreras.png';
+import hunter from '../images/hunterxhunter.png';
+import lord from '../images/lord.png';
 import '../styles/components/Projects.scss';
 import { Link } from 'react-router-dom';
 // import projects from '../data/projectsData.json';
@@ -61,7 +64,52 @@ function Projects() {
                 </p>
               </article>
             </li>
-          </a>
+            </a>
+            <a href="https://elenavar.github.io/project-promo-R-module-1-team-3/" target="_blank" rel='noreferrer'>
+            <li key="">
+              <article className="list__two project">
+                <img
+                  src={guerreras}
+                  className="project__img"
+                  alt="Guerreras del Front project"
+                />
+                <h2 className="project__title">Guerreras del Front</h2>
+                <p className="project__desc">
+                  Create your own business card.
+                </p>
+              </article>
+            </li>
+            </a>
+            <a href="https://hunterxhunters-production.up.railway.app/#/" target="_blank" rel='noreferrer'>
+            <li key="">
+              <article className="list__two project">
+                <img
+                  src={hunter}
+                  className="project__img"
+                  alt="HunterxHunter project"
+                />
+                <h2 className="project__title">HunterxHunter</h2>
+                <p className="project__desc">
+                Migration of an already created project to React and creation of a database.
+                </p>
+              </article>
+            </li>
+            </a>
+            <a href='https://elenavar.github.io/Lord-of-the-Rings-Game/' target="_blank" rel='noreferrer'>
+            <li key="">
+              <article className="list__two project">
+                <img
+                  src={lord}
+                  className="project__img"
+                  alt="Lord of the Rings game"
+                />
+                <h2 className="project__title">Lord of the Rings game</h2>
+                <p className="project__desc">
+                Fight evil with the Lord of the Rings game.
+                </p>
+              </article>
+            </li>
+            </a>
         </ul>
       </div>
       </div>
