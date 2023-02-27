@@ -75,7 +75,7 @@ function Projects() {
                 />
                 <h2 className="project__title">Guerreras del Front</h2>
                 <p className="project__desc">
-                  Create your own business card.
+                  Example of a team web.
                 </p>
               </article>
             </li>
